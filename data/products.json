@@ -3,15 +3,15 @@
     "id": "XsRs3",
     "title": "Rtx4070 r7 7700 b650 32 gb ddr5 ssd m2",
     "price": 64500,
-    "image": "/images/products/XsRs3/1.jpg",
+    "image": "./images/products/XsRs3/1.jpg",
     "images": [
-      "/images/products/XsRs3/1.jpg",
-      "/images/products/XsRs3/2.jpg",
-      "/images/products/XsRs3/3.jpg",
-      "/images/products/XsRs3/4.jpg",
-      "/images/products/XsRs3/5.jpg",
-      "/images/products/XsRs3/6.jpg",
-      "/images/products/XsRs3/7.jpg"
+      "./images/products/XsRs3/1.jpg",
+      "./images/products/XsRs3/2.jpg",
+      "./images/products/XsRs3/3.jpg",
+      "./images/products/XsRs3/4.jpg",
+      "./images/products/XsRs3/5.jpg",
+      "./images/products/XsRs3/6.jpg",
+      "./images/products/XsRs3/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -30,15 +30,15 @@
     "id": "UxTaU",
     "title": "rtx 5070 DDR5 32 GB i5-14600kf Ssd m2",
     "price": 72900,
-    "image": "/images/products/UxTaU/1.jpg",
+    "image": "./images/products/UxTaU/1.jpg",
     "images": [
-      "/images/products/UxTaU/1.jpg",
-      "/images/products/UxTaU/2.jpg",
-      "/images/products/UxTaU/3.jpg",
-      "/images/products/UxTaU/4.jpg",
-      "/images/products/UxTaU/5.jpg",
-      "/images/products/UxTaU/6.jpg",
-      "/images/products/UxTaU/7.jpg"
+      "./images/products/UxTaU/1.jpg",
+      "./images/products/UxTaU/2.jpg",
+      "./images/products/UxTaU/3.jpg",
+      "./images/products/UxTaU/4.jpg",
+      "./images/products/UxTaU/5.jpg",
+      "./images/products/UxTaU/6.jpg",
+      "./images/products/UxTaU/7.jpg"
     ],
     "specs": {
       "cpu": "Intel Core i5 14600kf",
@@ -57,13 +57,13 @@
     "id": "YX0wc",
     "title": "ПК rtx4060 Ryzen 5 5600 16 gb ddr4 ssd m2",
     "price": 36900,
-    "image": "/images/products/YX0wc/1.jpg",
+    "image": "./images/products/YX0wc/1.jpg",
     "images": [
-      "/images/products/YX0wc/1.jpg",
-      "/images/products/YX0wc/2.jpg",
-      "/images/products/YX0wc/3.jpg",
-      "/images/products/YX0wc/4.jpg",
-      "/images/products/YX0wc/5.jpg"
+      "./images/products/YX0wc/1.jpg",
+      "./images/products/YX0wc/2.jpg",
+      "./images/products/YX0wc/3.jpg",
+      "./images/products/YX0wc/4.jpg",
+      "./images/products/YX0wc/5.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 5600",
@@ -82,14 +82,14 @@
     "id": "YX0n7",
     "title": "ПК rtx5060 Ryzen 5 5600 16 gb ddr4 ssd m2",
     "price": 42500,
-    "image": "/images/products/YX0n7/1.jpg",
+    "image": "./images/products/YX0n7/1.jpg",
     "images": [
-      "/images/products/YX0n7/1.jpg",
-      "/images/products/YX0n7/2.jpg",
-      "/images/products/YX0n7/3.jpg",
-      "/images/products/YX0n7/4.jpg",
-      "/images/products/YX0n7/5.jpg",
-      "/images/products/YX0n7/6.jpg"
+      "./images/products/YX0n7/1.jpg",
+      "./images/products/YX0n7/2.jpg",
+      "./images/products/YX0n7/3.jpg",
+      "./images/products/YX0n7/4.jpg",
+      "./images/products/YX0n7/5.jpg",
+      "./images/products/YX0n7/6.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 5600",
@@ -108,15 +108,15 @@
     "id": "XYcab",
     "title": "RTX5080 r7 7800X3D B650 32 gb ddr5 ssd m2",
     "price": 125900,
-    "image": "/images/products/XYcab/1.jpg",
+    "image": "./images/products/XYcab/1.jpg",
     "images": [
-      "/images/products/XYcab/1.jpg",
-      "/images/products/XYcab/2.jpg",
-      "/images/products/XYcab/3.jpg",
-      "/images/products/XYcab/4.jpg",
-      "/images/products/XYcab/5.jpg",
-      "/images/products/XYcab/6.jpg",
-      "/images/products/XYcab/7.jpg"
+      "./images/products/XYcab/1.jpg",
+      "./images/products/XYcab/2.jpg",
+      "./images/products/XYcab/3.jpg",
+      "./images/products/XYcab/4.jpg",
+      "./images/products/XYcab/5.jpg",
+      "./images/products/XYcab/6.jpg",
+      "./images/products/XYcab/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7800x3d",
@@ -135,12 +135,12 @@
     "id": "WULCg",
     "title": "r7 7700 RTX5070 ddr5 32 gb l ssd m2",
     "price": 75500,
-    "image": "/images/products/WULCg/1.jpg",
+    "image": "./images/products/WULCg/1.jpg",
     "images": [
-      "/images/products/WULCg/1.jpg",
-      "/images/products/WULCg/2.jpg",
-      "/images/products/WULCg/3.jpg",
-      "/images/products/WULCg/4.jpg"
+      "./images/products/WULCg/1.jpg",
+      "./images/products/WULCg/2.jpg",
+      "./images/products/WULCg/3.jpg",
+      "./images/products/WULCg/4.jpg"
     ],
     "specs": {
       "cpu": "Intel Core 7 7700",
@@ -159,16 +159,16 @@
     "id": "W4a2u",
     "title": "ПК rtx3070 ryzen 5600 16 gb озу ssd m2",
     "price": 37500,
-    "image": "/images/products/W4a2u/1.jpg",
+    "image": "./images/products/W4a2u/1.jpg",
     "images": [
-      "/images/products/W4a2u/1.jpg",
-      "/images/products/W4a2u/2.jpg",
-      "/images/products/W4a2u/3.jpg",
-      "/images/products/W4a2u/4.jpg",
-      "/images/products/W4a2u/5.jpg",
-      "/images/products/W4a2u/6.jpg",
-      "/images/products/W4a2u/7.jpg",
-      "/images/products/W4a2u/8.jpg"
+      "./images/products/W4a2u/1.jpg",
+      "./images/products/W4a2u/2.jpg",
+      "./images/products/W4a2u/3.jpg",
+      "./images/products/W4a2u/4.jpg",
+      "./images/products/W4a2u/5.jpg",
+      "./images/products/W4a2u/6.jpg",
+      "./images/products/W4a2u/7.jpg",
+      "./images/products/W4a2u/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 5600",
@@ -187,15 +187,15 @@
     "id": "YMXSd",
     "title": "i7-14700kf rtx5070 32gb ddr5 b760 ssd m2",
     "price": 80900,
-    "image": "/images/products/YMXSd/1.jpg",
+    "image": "./images/products/YMXSd/1.jpg",
     "images": [
-      "/images/products/YMXSd/1.jpg",
-      "/images/products/YMXSd/2.jpg",
-      "/images/products/YMXSd/3.jpg",
-      "/images/products/YMXSd/4.jpg",
-      "/images/products/YMXSd/5.jpg",
-      "/images/products/YMXSd/6.jpg",
-      "/images/products/YMXSd/7.jpg"
+      "./images/products/YMXSd/1.jpg",
+      "./images/products/YMXSd/2.jpg",
+      "./images/products/YMXSd/3.jpg",
+      "./images/products/YMXSd/4.jpg",
+      "./images/products/YMXSd/5.jpg",
+      "./images/products/YMXSd/6.jpg",
+      "./images/products/YMXSd/7.jpg"
     ],
     "specs": {
       "cpu": "Intel Core i7 14700kf",
@@ -214,13 +214,13 @@
     "id": "WWiOk",
     "title": "rtx 3080 b760 i5-13400 32gb ram",
     "price": 58800,
-    "image": "/images/products/WWiOk/1.jpg",
+    "image": "./images/products/WWiOk/1.jpg",
     "images": [
-      "/images/products/WWiOk/1.jpg",
-      "/images/products/WWiOk/2.jpg",
-      "/images/products/WWiOk/3.jpg",
-      "/images/products/WWiOk/4.jpg",
-      "/images/products/WWiOk/5.jpg"
+      "./images/products/WWiOk/1.jpg",
+      "./images/products/WWiOk/2.jpg",
+      "./images/products/WWiOk/3.jpg",
+      "./images/products/WWiOk/4.jpg",
+      "./images/products/WWiOk/5.jpg"
     ],
     "specs": {
       "cpu": "Intel Core i5 13400",
@@ -239,14 +239,14 @@
     "id": "UMEeF",
     "title": "rtx3060 12 gb Ryzen 5500 Ddr4 16 gb ssd hdd",
     "price": 33500,
-    "image": "/images/products/UMEeF/1.jpg",
+    "image": "./images/products/UMEeF/1.jpg",
     "images": [
-      "/images/products/UMEeF/1.jpg",
-      "/images/products/UMEeF/2.jpg",
-      "/images/products/UMEeF/3.jpg",
-      "/images/products/UMEeF/4.jpg",
-      "/images/products/UMEeF/5.jpg",
-      "/images/products/UMEeF/6.jpg"
+      "./images/products/UMEeF/1.jpg",
+      "./images/products/UMEeF/2.jpg",
+      "./images/products/UMEeF/3.jpg",
+      "./images/products/UMEeF/4.jpg",
+      "./images/products/UMEeF/5.jpg",
+      "./images/products/UMEeF/6.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 5500",
@@ -265,14 +265,14 @@
     "id": "WZqWc",
     "title": "ПК rtx5070 r7 7700 ddr5 32gb ssd m2 nvme",
     "price": 70500,
-    "image": "/images/products/WZqWc/1.jpg",
+    "image": "./images/products/WZqWc/1.jpg",
     "images": [
-      "/images/products/WZqWc/1.jpg",
-      "/images/products/WZqWc/2.jpg",
-      "/images/products/WZqWc/3.jpg",
-      "/images/products/WZqWc/4.jpg",
-      "/images/products/WZqWc/5.jpg",
-      "/images/products/WZqWc/6.jpg"
+      "./images/products/WZqWc/1.jpg",
+      "./images/products/WZqWc/2.jpg",
+      "./images/products/WZqWc/3.jpg",
+      "./images/products/WZqWc/4.jpg",
+      "./images/products/WZqWc/5.jpg",
+      "./images/products/WZqWc/6.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -291,16 +291,16 @@
     "id": "T52Fk",
     "title": "ПК rtx5070 r7 7700 ddr5 32gb ssd m2 nvme",
     "price": 70500,
-    "image": "/images/products/T52Fk/1.jpg",
+    "image": "./images/products/T52Fk/1.jpg",
     "images": [
-      "/images/products/T52Fk/1.jpg",
-      "/images/products/T52Fk/2.jpg",
-      "/images/products/T52Fk/3.jpg",
-      "/images/products/T52Fk/4.jpg",
-      "/images/products/T52Fk/5.jpg",
-      "/images/products/T52Fk/6.jpg",
-      "/images/products/T52Fk/7.jpg",
-      "/images/products/T52Fk/8.jpg"
+      "./images/products/T52Fk/1.jpg",
+      "./images/products/T52Fk/2.jpg",
+      "./images/products/T52Fk/3.jpg",
+      "./images/products/T52Fk/4.jpg",
+      "./images/products/T52Fk/5.jpg",
+      "./images/products/T52Fk/6.jpg",
+      "./images/products/T52Fk/7.jpg",
+      "./images/products/T52Fk/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -319,16 +319,16 @@
     "id": "V3FPR",
     "title": "ПК rtx5060ti 16gb ryzen 5 7500f ddr5 32 gb",
     "price": 60900,
-    "image": "/images/products/V3FPR/1.jpg",
+    "image": "./images/products/V3FPR/1.jpg",
     "images": [
-      "/images/products/V3FPR/1.jpg",
-      "/images/products/V3FPR/2.jpg",
-      "/images/products/V3FPR/3.jpg",
-      "/images/products/V3FPR/4.jpg",
-      "/images/products/V3FPR/5.jpg",
-      "/images/products/V3FPR/6.jpg",
-      "/images/products/V3FPR/7.jpg",
-      "/images/products/V3FPR/8.jpg"
+      "./images/products/V3FPR/1.jpg",
+      "./images/products/V3FPR/2.jpg",
+      "./images/products/V3FPR/3.jpg",
+      "./images/products/V3FPR/4.jpg",
+      "./images/products/V3FPR/5.jpg",
+      "./images/products/V3FPR/6.jpg",
+      "./images/products/V3FPR/7.jpg",
+      "./images/products/V3FPR/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500f",
@@ -347,16 +347,16 @@
     "id": "TIYkK",
     "title": "ПК r5 7500f rtx5070 b650 32 gb ddr5 ssd m2",
     "price": 67500,
-    "image": "/images/products/TIYkK/1.jpg",
+    "image": "./images/products/TIYkK/1.jpg",
     "images": [
-      "/images/products/TIYkK/1.jpg",
-      "/images/products/TIYkK/2.jpg",
-      "/images/products/TIYkK/3.jpg",
-      "/images/products/TIYkK/4.jpg",
-      "/images/products/TIYkK/5.jpg",
-      "/images/products/TIYkK/6.jpg",
-      "/images/products/TIYkK/7.jpg",
-      "/images/products/TIYkK/8.jpg"
+      "./images/products/TIYkK/1.jpg",
+      "./images/products/TIYkK/2.jpg",
+      "./images/products/TIYkK/3.jpg",
+      "./images/products/TIYkK/4.jpg",
+      "./images/products/TIYkK/5.jpg",
+      "./images/products/TIYkK/6.jpg",
+      "./images/products/TIYkK/7.jpg",
+      "./images/products/TIYkK/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500F",
@@ -375,16 +375,16 @@
     "id": "WCYxu",
     "title": "rtx5070TI R7 7700 32gb 6000cl30 ssd nvme",
     "price": 88500,
-    "image": "/images/products/WCYxu/1.jpg",
+    "image": "./images/products/WCYxu/1.jpg",
     "images": [
-      "/images/products/WCYxu/1.jpg",
-      "/images/products/WCYxu/2.jpg",
-      "/images/products/WCYxu/3.jpg",
-      "/images/products/WCYxu/4.jpg",
-      "/images/products/WCYxu/5.jpg",
-      "/images/products/WCYxu/6.jpg",
-      "/images/products/WCYxu/7.jpg",
-      "/images/products/WCYxu/8.jpg"
+      "./images/products/WCYxu/1.jpg",
+      "./images/products/WCYxu/2.jpg",
+      "./images/products/WCYxu/3.jpg",
+      "./images/products/WCYxu/4.jpg",
+      "./images/products/WCYxu/5.jpg",
+      "./images/products/WCYxu/6.jpg",
+      "./images/products/WCYxu/7.jpg",
+      "./images/products/WCYxu/8.jpg"
     ],
     "specs": {
       "cpu": "Intel Core 7 7700",
@@ -403,16 +403,16 @@
     "id": "TXIuu",
     "title": "R5 7500f RTX5060 ddr5 32 gb m2 nvme",
     "price": 52500,
-    "image": "/images/products/TXIuu/1.jpg",
+    "image": "./images/products/TXIuu/1.jpg",
     "images": [
-      "/images/products/TXIuu/1.jpg",
-      "/images/products/TXIuu/2.jpg",
-      "/images/products/TXIuu/3.jpg",
-      "/images/products/TXIuu/4.jpg",
-      "/images/products/TXIuu/5.jpg",
-      "/images/products/TXIuu/6.jpg",
-      "/images/products/TXIuu/7.jpg",
-      "/images/products/TXIuu/8.jpg"
+      "./images/products/TXIuu/1.jpg",
+      "./images/products/TXIuu/2.jpg",
+      "./images/products/TXIuu/3.jpg",
+      "./images/products/TXIuu/4.jpg",
+      "./images/products/TXIuu/5.jpg",
+      "./images/products/TXIuu/6.jpg",
+      "./images/products/TXIuu/7.jpg",
+      "./images/products/TXIuu/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500F",
@@ -431,15 +431,15 @@
     "id": "XhzOA",
     "title": "RTX5070 i5-14600kf ddr5 32 b760 ssd m2",
     "price": 79900,
-    "image": "/images/products/XhzOA/1.jpg",
+    "image": "./images/products/XhzOA/1.jpg",
     "images": [
-      "/images/products/XhzOA/1.jpg",
-      "/images/products/XhzOA/2.jpg",
-      "/images/products/XhzOA/3.jpg",
-      "/images/products/XhzOA/4.jpg",
-      "/images/products/XhzOA/5.jpg",
-      "/images/products/XhzOA/6.jpg",
-      "/images/products/XhzOA/7.jpg"
+      "./images/products/XhzOA/1.jpg",
+      "./images/products/XhzOA/2.jpg",
+      "./images/products/XhzOA/3.jpg",
+      "./images/products/XhzOA/4.jpg",
+      "./images/products/XhzOA/5.jpg",
+      "./images/products/XhzOA/6.jpg",
+      "./images/products/XhzOA/7.jpg"
     ],
     "specs": {
       "cpu": "Intel Core i5 14600kf",
@@ -458,15 +458,15 @@
     "id": "TIWS4",
     "title": "Ryzen 7500f rtx3080 32 gb ddr5 6000 mhz ssd m2 nvme",
     "price": 53500,
-    "image": "/images/products/TIWS4/1.jpg",
+    "image": "./images/products/TIWS4/1.jpg",
     "images": [
-      "/images/products/TIWS4/1.jpg",
-      "/images/products/TIWS4/2.jpg",
-      "/images/products/TIWS4/3.jpg",
-      "/images/products/TIWS4/4.jpg",
-      "/images/products/TIWS4/5.jpg",
-      "/images/products/TIWS4/6.jpg",
-      "/images/products/TIWS4/7.jpg"
+      "./images/products/TIWS4/1.jpg",
+      "./images/products/TIWS4/2.jpg",
+      "./images/products/TIWS4/3.jpg",
+      "./images/products/TIWS4/4.jpg",
+      "./images/products/TIWS4/5.jpg",
+      "./images/products/TIWS4/6.jpg",
+      "./images/products/TIWS4/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 6000",
@@ -485,16 +485,16 @@
     "id": "Xj065",
     "title": "ryzen 7 7700 rtx4070 ddr5 32 gb m2 ssd",
     "price": 66500,
-    "image": "/images/products/Xj065/1.jpg",
+    "image": "./images/products/Xj065/1.jpg",
     "images": [
-      "/images/products/Xj065/1.jpg",
-      "/images/products/Xj065/2.jpg",
-      "/images/products/Xj065/3.jpg",
-      "/images/products/Xj065/4.jpg",
-      "/images/products/Xj065/5.jpg",
-      "/images/products/Xj065/6.jpg",
-      "/images/products/Xj065/7.jpg",
-      "/images/products/Xj065/8.jpg"
+      "./images/products/Xj065/1.jpg",
+      "./images/products/Xj065/2.jpg",
+      "./images/products/Xj065/3.jpg",
+      "./images/products/Xj065/4.jpg",
+      "./images/products/Xj065/5.jpg",
+      "./images/products/Xj065/6.jpg",
+      "./images/products/Xj065/7.jpg",
+      "./images/products/Xj065/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -513,15 +513,15 @@
     "id": "UmxN2",
     "title": "RTX5070 r7 7700 32gb ddr5 ssd m2",
     "price": 72500,
-    "image": "/images/products/UmxN2/1.jpg",
+    "image": "./images/products/UmxN2/1.jpg",
     "images": [
-      "/images/products/UmxN2/1.jpg",
-      "/images/products/UmxN2/2.jpg",
-      "/images/products/UmxN2/3.jpg",
-      "/images/products/UmxN2/4.jpg",
-      "/images/products/UmxN2/5.jpg",
-      "/images/products/UmxN2/6.jpg",
-      "/images/products/UmxN2/7.jpg"
+      "./images/products/UmxN2/1.jpg",
+      "./images/products/UmxN2/2.jpg",
+      "./images/products/UmxN2/3.jpg",
+      "./images/products/UmxN2/4.jpg",
+      "./images/products/UmxN2/5.jpg",
+      "./images/products/UmxN2/6.jpg",
+      "./images/products/UmxN2/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -540,15 +540,15 @@
     "id": "UcQc4",
     "title": "rtx 3070 I5-13400f 16 gb ssd hdd gtx",
     "price": 40500,
-    "image": "/images/products/UcQc4/1.jpg",
+    "image": "./images/products/UcQc4/1.jpg",
     "images": [
-      "/images/products/UcQc4/1.jpg",
-      "/images/products/UcQc4/2.jpg",
-      "/images/products/UcQc4/3.jpg",
-      "/images/products/UcQc4/4.jpg",
-      "/images/products/UcQc4/5.jpg",
-      "/images/products/UcQc4/6.jpg",
-      "/images/products/UcQc4/7.jpg"
+      "./images/products/UcQc4/1.jpg",
+      "./images/products/UcQc4/2.jpg",
+      "./images/products/UcQc4/3.jpg",
+      "./images/products/UcQc4/4.jpg",
+      "./images/products/UcQc4/5.jpg",
+      "./images/products/UcQc4/6.jpg",
+      "./images/products/UcQc4/7.jpg"
     ],
     "specs": {
       "cpu": "Intel Core i5 13400f",
@@ -567,16 +567,16 @@
     "id": "WGS6T",
     "title": "Пк R5 7500f rtx5060 ddr5 32 gb ssd m2",
     "price": 52500,
-    "image": "/images/products/WGS6T/1.jpg",
+    "image": "./images/products/WGS6T/1.jpg",
     "images": [
-      "/images/products/WGS6T/1.jpg",
-      "/images/products/WGS6T/2.jpg",
-      "/images/products/WGS6T/3.jpg",
-      "/images/products/WGS6T/4.jpg",
-      "/images/products/WGS6T/5.jpg",
-      "/images/products/WGS6T/6.jpg",
-      "/images/products/WGS6T/7.jpg",
-      "/images/products/WGS6T/8.jpg"
+      "./images/products/WGS6T/1.jpg",
+      "./images/products/WGS6T/2.jpg",
+      "./images/products/WGS6T/3.jpg",
+      "./images/products/WGS6T/4.jpg",
+      "./images/products/WGS6T/5.jpg",
+      "./images/products/WGS6T/6.jpg",
+      "./images/products/WGS6T/7.jpg",
+      "./images/products/WGS6T/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500F",
@@ -595,14 +595,14 @@
     "id": "WHI1o",
     "title": "White Pc Ryzen R7 7700 rtx4070 ddr5 32 gb ssd m2",
     "price": 67500,
-    "image": "/images/products/WHI1o/1.jpg",
+    "image": "./images/products/WHI1o/1.jpg",
     "images": [
-      "/images/products/WHI1o/1.jpg",
-      "/images/products/WHI1o/2.jpg",
-      "/images/products/WHI1o/3.jpg",
-      "/images/products/WHI1o/4.jpg",
-      "/images/products/WHI1o/5.jpg",
-      "/images/products/WHI1o/6.jpg"
+      "./images/products/WHI1o/1.jpg",
+      "./images/products/WHI1o/2.jpg",
+      "./images/products/WHI1o/3.jpg",
+      "./images/products/WHI1o/4.jpg",
+      "./images/products/WHI1o/5.jpg",
+      "./images/products/WHI1o/6.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -621,15 +621,15 @@
     "id": "Yrpcs",
     "title": "Ryzen 7700 Rtx5060ti 16 gb ddr5 32 gb ssd m2",
     "price": 67900,
-    "image": "/images/products/Yrpcs/1.jpg",
+    "image": "./images/products/Yrpcs/1.jpg",
     "images": [
-      "/images/products/Yrpcs/1.jpg",
-      "/images/products/Yrpcs/2.jpg",
-      "/images/products/Yrpcs/3.jpg",
-      "/images/products/Yrpcs/4.jpg",
-      "/images/products/Yrpcs/5.jpg",
-      "/images/products/Yrpcs/6.jpg",
-      "/images/products/Yrpcs/7.jpg"
+      "./images/products/Yrpcs/1.jpg",
+      "./images/products/Yrpcs/2.jpg",
+      "./images/products/Yrpcs/3.jpg",
+      "./images/products/Yrpcs/4.jpg",
+      "./images/products/Yrpcs/5.jpg",
+      "./images/products/Yrpcs/6.jpg",
+      "./images/products/Yrpcs/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -648,16 +648,16 @@
     "id": "WGb6L",
     "title": "ПК RTX5060TI 16gb Ryzen 7700 32 gb ssd m2",
     "price": 65900,
-    "image": "/images/products/WGb6L/1.jpg",
+    "image": "./images/products/WGb6L/1.jpg",
     "images": [
-      "/images/products/WGb6L/1.jpg",
-      "/images/products/WGb6L/2.jpg",
-      "/images/products/WGb6L/3.jpg",
-      "/images/products/WGb6L/4.jpg",
-      "/images/products/WGb6L/5.jpg",
-      "/images/products/WGb6L/6.jpg",
-      "/images/products/WGb6L/7.jpg",
-      "/images/products/WGb6L/8.jpg"
+      "./images/products/WGb6L/1.jpg",
+      "./images/products/WGb6L/2.jpg",
+      "./images/products/WGb6L/3.jpg",
+      "./images/products/WGb6L/4.jpg",
+      "./images/products/WGb6L/5.jpg",
+      "./images/products/WGb6L/6.jpg",
+      "./images/products/WGb6L/7.jpg",
+      "./images/products/WGb6L/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -676,13 +676,13 @@
     "id": "YPEUj",
     "title": "Міні-пк з дисплеєм R7 7800x3d rtx5070 ddr5 6000cl30 ssd m2 nvme",
     "price": 82700,
-    "image": "/images/products/YPEUj/1.jpg",
+    "image": "./images/products/YPEUj/1.jpg",
     "images": [
-      "/images/products/YPEUj/1.jpg",
-      "/images/products/YPEUj/2.jpg",
-      "/images/products/YPEUj/3.jpg",
-      "/images/products/YPEUj/4.jpg",
-      "/images/products/YPEUj/5.jpg"
+      "./images/products/YPEUj/1.jpg",
+      "./images/products/YPEUj/2.jpg",
+      "./images/products/YPEUj/3.jpg",
+      "./images/products/YPEUj/4.jpg",
+      "./images/products/YPEUj/5.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7800X3D",
@@ -701,16 +701,16 @@
     "id": "XzGwV",
     "title": "ПК rtx5070 r5 7500f ddr5 32gb ssd m2 nvme",
     "price": 67500,
-    "image": "/images/products/XzGwV/1.jpg",
+    "image": "./images/products/XzGwV/1.jpg",
     "images": [
-      "/images/products/XzGwV/1.jpg",
-      "/images/products/XzGwV/2.jpg",
-      "/images/products/XzGwV/3.jpg",
-      "/images/products/XzGwV/4.jpg",
-      "/images/products/XzGwV/5.jpg",
-      "/images/products/XzGwV/6.jpg",
-      "/images/products/XzGwV/7.jpg",
-      "/images/products/XzGwV/8.jpg"
+      "./images/products/XzGwV/1.jpg",
+      "./images/products/XzGwV/2.jpg",
+      "./images/products/XzGwV/3.jpg",
+      "./images/products/XzGwV/4.jpg",
+      "./images/products/XzGwV/5.jpg",
+      "./images/products/XzGwV/6.jpg",
+      "./images/products/XzGwV/7.jpg",
+      "./images/products/XzGwV/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500F",
@@ -729,15 +729,15 @@
     "id": "TwlRN",
     "title": "ПК Ryzen 7500f rtx5060 32gb ddr5 Ssd nvme m",
     "price": 52900,
-    "image": "/images/products/TwlRN/1.jpg",
+    "image": "./images/products/TwlRN/1.jpg",
     "images": [
-      "/images/products/TwlRN/1.jpg",
-      "/images/products/TwlRN/2.jpg",
-      "/images/products/TwlRN/3.jpg",
-      "/images/products/TwlRN/4.jpg",
-      "/images/products/TwlRN/5.jpg",
-      "/images/products/TwlRN/6.jpg",
-      "/images/products/TwlRN/7.jpg"
+      "./images/products/TwlRN/1.jpg",
+      "./images/products/TwlRN/2.jpg",
+      "./images/products/TwlRN/3.jpg",
+      "./images/products/TwlRN/4.jpg",
+      "./images/products/TwlRN/5.jpg",
+      "./images/products/TwlRN/6.jpg",
+      "./images/products/TwlRN/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500F",
@@ -756,16 +756,16 @@
     "id": "UGVG0",
     "title": "Пк Mini-ITX rtx5070 r7 7700 32ddr5 Wi-fi-6e nvme m2",
     "price": 75500,
-    "image": "/images/products/UGVG0/1.jpg",
+    "image": "./images/products/UGVG0/1.jpg",
     "images": [
-      "/images/products/UGVG0/1.jpg",
-      "/images/products/UGVG0/2.jpg",
-      "/images/products/UGVG0/3.jpg",
-      "/images/products/UGVG0/4.jpg",
-      "/images/products/UGVG0/5.jpg",
-      "/images/products/UGVG0/6.jpg",
-      "/images/products/UGVG0/7.jpg",
-      "/images/products/UGVG0/8.jpg"
+      "./images/products/UGVG0/1.jpg",
+      "./images/products/UGVG0/2.jpg",
+      "./images/products/UGVG0/3.jpg",
+      "./images/products/UGVG0/4.jpg",
+      "./images/products/UGVG0/5.jpg",
+      "./images/products/UGVG0/6.jpg",
+      "./images/products/UGVG0/7.jpg",
+      "./images/products/UGVG0/8.jpg"
     ],
     "specs": {
       "cpu": "Intel Core 7 7700",
@@ -784,16 +784,16 @@
     "id": "TUZ1x",
     "title": "Ryzen 7500f rtx3070 32 gb ddr5 6000 mhz ssd m2 nvme",
     "price": 50200,
-    "image": "/images/products/TUZ1x/1.jpg",
+    "image": "./images/products/TUZ1x/1.jpg",
     "images": [
-      "/images/products/TUZ1x/1.jpg",
-      "/images/products/TUZ1x/2.jpg",
-      "/images/products/TUZ1x/3.jpg",
-      "/images/products/TUZ1x/4.jpg",
-      "/images/products/TUZ1x/5.jpg",
-      "/images/products/TUZ1x/6.jpg",
-      "/images/products/TUZ1x/7.jpg",
-      "/images/products/TUZ1x/8.jpg"
+      "./images/products/TUZ1x/1.jpg",
+      "./images/products/TUZ1x/2.jpg",
+      "./images/products/TUZ1x/3.jpg",
+      "./images/products/TUZ1x/4.jpg",
+      "./images/products/TUZ1x/5.jpg",
+      "./images/products/TUZ1x/6.jpg",
+      "./images/products/TUZ1x/7.jpg",
+      "./images/products/TUZ1x/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 6000",
@@ -812,16 +812,16 @@
     "id": "UpY56",
     "title": "rtx 3080 ryzen 7500f 32 gb ddr5 ssd m2",
     "price": 53500,
-    "image": "/images/products/UpY56/1.jpg",
+    "image": "./images/products/UpY56/1.jpg",
     "images": [
-      "/images/products/UpY56/1.jpg",
-      "/images/products/UpY56/2.jpg",
-      "/images/products/UpY56/3.jpg",
-      "/images/products/UpY56/4.jpg",
-      "/images/products/UpY56/5.jpg",
-      "/images/products/UpY56/6.jpg",
-      "/images/products/UpY56/7.jpg",
-      "/images/products/UpY56/8.jpg"
+      "./images/products/UpY56/1.jpg",
+      "./images/products/UpY56/2.jpg",
+      "./images/products/UpY56/3.jpg",
+      "./images/products/UpY56/4.jpg",
+      "./images/products/UpY56/5.jpg",
+      "./images/products/UpY56/6.jpg",
+      "./images/products/UpY56/7.jpg",
+      "./images/products/UpY56/8.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500F",
@@ -840,14 +840,14 @@
     "id": "WK1Vo",
     "title": "RX9070XT Ryzen 7700 DDR5 32gb b650 ssd nvme",
     "price": 76900,
-    "image": "/images/products/WK1Vo/1.jpg",
+    "image": "./images/products/WK1Vo/1.jpg",
     "images": [
-      "/images/products/WK1Vo/1.jpg",
-      "/images/products/WK1Vo/2.jpg",
-      "/images/products/WK1Vo/3.jpg",
-      "/images/products/WK1Vo/4.jpg",
-      "/images/products/WK1Vo/5.jpg",
-      "/images/products/WK1Vo/6.jpg"
+      "./images/products/WK1Vo/1.jpg",
+      "./images/products/WK1Vo/2.jpg",
+      "./images/products/WK1Vo/3.jpg",
+      "./images/products/WK1Vo/4.jpg",
+      "./images/products/WK1Vo/5.jpg",
+      "./images/products/WK1Vo/6.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 7 7700",
@@ -866,15 +866,15 @@
     "id": "YsN05",
     "title": "ПК rtx4060ti 16gb ryzen 5 7500f ddr 32 gb озу ssd m2",
     "price": 53500,
-    "image": "/images/products/YsN05/1.jpg",
+    "image": "./images/products/YsN05/1.jpg",
     "images": [
-      "/images/products/YsN05/1.jpg",
-      "/images/products/YsN05/2.jpg",
-      "/images/products/YsN05/3.jpg",
-      "/images/products/YsN05/4.jpg",
-      "/images/products/YsN05/5.jpg",
-      "/images/products/YsN05/6.jpg",
-      "/images/products/YsN05/7.jpg"
+      "./images/products/YsN05/1.jpg",
+      "./images/products/YsN05/2.jpg",
+      "./images/products/YsN05/3.jpg",
+      "./images/products/YsN05/4.jpg",
+      "./images/products/YsN05/5.jpg",
+      "./images/products/YsN05/6.jpg",
+      "./images/products/YsN05/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 7500f",
@@ -893,15 +893,15 @@
     "id": "UsPN9",
     "title": "ПК Rtx4060Ti 16 gb Ryzen 5 5500, 16 gb ddr4, ssd m2",
     "price": 43500,
-    "image": "/images/products/UsPN9/1.jpg",
+    "image": "./images/products/UsPN9/1.jpg",
     "images": [
-      "/images/products/UsPN9/1.jpg",
-      "/images/products/UsPN9/2.jpg",
-      "/images/products/UsPN9/3.jpg",
-      "/images/products/UsPN9/4.jpg",
-      "/images/products/UsPN9/5.jpg",
-      "/images/products/UsPN9/6.jpg",
-      "/images/products/UsPN9/7.jpg"
+      "./images/products/UsPN9/1.jpg",
+      "./images/products/UsPN9/2.jpg",
+      "./images/products/UsPN9/3.jpg",
+      "./images/products/UsPN9/4.jpg",
+      "./images/products/UsPN9/5.jpg",
+      "./images/products/UsPN9/6.jpg",
+      "./images/products/UsPN9/7.jpg"
     ],
     "specs": {
       "cpu": "AMD Ryzen 5 5500",
