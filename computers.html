@@ -1,0 +1,876 @@
+﻿<!DOCTYPE html>
+
+<html lang="uk" dir="ltr">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Персональні комп'ютери | Digital PC</title>
+
+    <meta name="description"
+        content="Премиальные игровые и профессиональные компьютеры от Digital PC. Широкий выбор конфигураций под любые задачи.">
+
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+
+
+    <!-- Core CSS & JS -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
+
+
+
+    <!-- Custom Styles -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap');
+
+
+
+        :root {
+
+            --primary: #00a8ff;
+
+            --secondary: #0097e6;
+
+            --accent: #00d2d3;
+
+            --dark: #2f3640;
+
+            --light: #f5f6fa;
+
+        }
+
+
+
+        body {
+
+            font-family: 'Rajdhani', sans-serif;
+
+            background-color: #f8f9fa;
+
+            color: var(--dark);
+
+            overflow-x: hidden;
+
+        }
+
+
+
+        .title-font {
+
+            font-family: 'Orbitron', sans-serif;
+
+            letter-spacing: 1px;
+
+        }
+
+
+
+        .glow-text {
+
+            text-shadow: 0 0 10px rgba(0, 168, 255, 0.7);
+
+        }
+
+
+
+        .glow-box {
+
+            box-shadow: 0 0 15px rgba(0, 168, 255, 0.5);
+
+        }
+
+
+
+        .nav-link {
+
+            position: relative;
+
+        }
+
+
+
+        .nav-link:after {
+
+            content: '';
+
+            position: absolute;
+
+            width: 0;
+
+            height: 2px;
+
+            bottom: -2px;
+
+            left: 0;
+
+            background-color: var(--primary);
+
+            transition: width 0.3s ease;
+
+        }
+
+
+
+        .nav-link:hover:after {
+
+            width: 100%;
+
+        }
+
+
+
+        .product-card:hover {
+
+            transform: translateY(-10px);
+
+            transition: all 0.3s ease;
+
+        }
+
+
+
+        .filter-section {
+
+            transition: all 0.3s ease;
+
+        }
+
+
+
+        .filter-section:hover {
+
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+        }
+
+
+
+        .checkbox-custom:checked {
+
+            background-color: var(--primary);
+
+            border-color: var(--primary);
+
+        }
+
+
+
+        .price-range::-webkit-slider-thumb {
+
+            -webkit-appearance: none;
+
+            appearance: none;
+
+            width: 20px;
+
+            height: 20px;
+
+            border-radius: 50%;
+
+            background: var(--primary);
+
+            cursor: pointer;
+
+        }
+
+        /* Mobile Filter Modal */
+        #mobile-filter-modal {
+            transition: opacity 0.3s ease;
+        }
+
+        #mobile-filter-modal.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        #mobile-filter-content {
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        #mobile-filter-modal.active #mobile-filter-content {
+            transform: translateY(0);
+        }
+    </style>
+
+    <link rel="stylesheet" href="./css/lightbox.css?v=4">
+
+</head>
+
+
+
+<body class="antialiased">
+
+    <!-- Navigation -->
+
+    <nav class="bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-sm fixed w-full z-50">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="flex justify-between h-16 items-center">
+
+                <!-- Logo -->
+
+                <div class="flex-shrink-0 flex items-center">
+
+                    <a class='flex items-center' href='index.html'><img src="./images/logo.png?v=13"
+                            alt="Digital PC Logo" class="w-8 h-8">
+
+                        <span class="ml-2 text-xl font-bold title-font text-gray-800">DIGITAL PC</span>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- Desktop Menu -->
+
+                <div class="hidden md:ml-6 md:flex md:space-x-8">
+
+                    <a class='nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium'
+                        data-i18n='nav_home' href='index.html'>Головна</a>
+
+                    <a class='nav-link text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium'
+                        data-i18n='nav_catalog' href='computers.html'>Комп'ютери</a>
+
+                    <a class='nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium'
+                        data-i18n='nav_reviews' href='reviews.html'>Відгуки</a>
+
+                    <a class='nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium'
+                        data-i18n='nav_about' href='about.html'>Про нас</a>
+
+                    <a class='nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium'
+                        data-i18n='nav_contacts' href='contacts.html'>Контакти</a>
+
+                </div>
+
+
+
+                <!-- Right Side -->
+
+                <div class="flex items-center">
+
+                    <!-- Mobile menu button -->
+
+                    <div class="-mr-2 flex items-center md:hidden">
+
+                        <button type="button"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                            aria-expanded="false" id="mobile-menu-button">
+
+                            <span class="sr-only">Open main menu</span>
+
+                            <i data-feather="menu" class="block h-6 w-6"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Mobile menu -->
+
+        <div class="md:hidden hidden" id="mobile-menu">
+
+            <div class="pt-2 pb-3 space-y-1 bg-white border-t">
+
+                <a class='block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50'
+                    data-i18n='nav_home' href='index.html'>Головна</a>
+
+                <a class='block pl-3 pr-4 py-2 text-base font-medium text-blue-600 bg-blue-50' data-i18n='nav_catalog'
+                    href='computers.html'>Комп'ютери</a>
+
+                <a class='block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50'
+                    data-i18n='nav_reviews' href='reviews.html'>Відгуки</a>
+
+                <a class='block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50'
+                    data-i18n='nav_about' href='about.html'>Про нас</a>
+
+                <a class='block pl-3 pr-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50'
+                    data-i18n='nav_contacts' href='contacts.html'>Контакти</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- Page Header -->
+
+    <div id="page-header" class="bg-gray-900 pt-24 pb-16">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="flex flex-col md:flex-row justify-between items-center">
+
+                <div class="mb-6 md:mb-0">
+
+                    <h1 class="text-3xl font-bold title-font text-white mb-2" data-aos="fade-right">Ігрові та робочі
+
+                        комп'ютери</h1>
+
+                    <p class="text-gray-300" data-aos="fade-right" data-aos-delay="100">Готові збірки для будь-яких
+
+                        завдань</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Main Content -->
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+
+
+        <!-- Sorting & Mobile Filter Toggle -->
+
+        <div id="catalog-controls" class="flex justify-between items-center mb-6">
+
+            <button id="mobile-filter-btn"
+                class="md:hidden flex items-center px-4 py-2 bg-white border rounded-lg shadow-sm text-gray-700"
+                onclick="openMobileFilters()">
+
+                <i data-feather="filter" class="w-4 h-4 mr-2"></i> Фільтри
+
+            </button>
+
+
+
+            <div class="ml-auto flex items-center">
+
+                <label for="sort-select" class="mr-3 text-gray-600 font-medium">Сортувати:</label>
+
+                <select id="sort-select"
+                    class="form-select block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"
+                    onchange="window.applyFilters()">
+
+                    <option value="default">За замовчуванням</option>
+
+                    <option value="price_asc">Спочатку дешевші</option>
+
+                    <option value="price_desc">Спочатку дорожчі</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="flex flex-col md:flex-row gap-8">
+
+            <!-- Sidebar Filters (Desktop Only) -->
+
+            <aside id="filters-sidebar"
+                class="max-md:!hidden md:block w-full md:w-64 flex-shrink-0 bg-white p-6 rounded-xl shadow-sm h-fit">
+
+                <div class="space-y-6">
+
+                    <!-- CPU Filter -->
+
+                    <div>
+
+                        <h3 class="font-bold text-gray-900 mb-3">Процесор</h3>
+
+                        <div class="space-y-2" id="filter-cpu"></div>
+
+                    </div>
+
+
+
+                    <!-- RAM Type -->
+
+                    <div>
+
+                        <h3 class="font-bold text-gray-900 mb-3">Тип ОЗУ</h3>
+
+                        <div class="space-y-2" id="filter-ram-type"></div>
+
+                    </div>
+
+
+
+                    <!-- RAM Size -->
+
+                    <div>
+
+                        <h3 class="font-bold text-gray-900 mb-3">Об'єм ОЗУ</h3>
+
+                        <div class="space-y-2" id="filter-ram-size"></div>
+
+                    </div>
+
+
+
+                    <!-- Storage -->
+
+                    <div>
+
+                        <h3 class="font-bold text-gray-900 mb-3">Накопичувач</h3>
+
+                        <div class="space-y-2" id="filter-storage"></div>
+
+                    </div>
+
+
+
+                    <!-- GPU -->
+
+                    <div>
+
+                        <h3 class="font-bold text-gray-900 mb-3">Відеокарта</h3>
+
+                        <div class="space-y-2" id="filter-gpu"></div>
+
+                    </div>
+
+
+
+                    <!-- Reset Button -->
+
+                    <button onclick="window.resetFilters()"
+                        class="w-full py-2 px-4 border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-50 transition-colors">
+
+                        Скинути фільтри
+
+                    </button>
+
+
+
+                </div>
+
+            </aside>
+
+
+
+            <!-- Product Grid -->
+
+            <div class="flex-grow">
+
+                <div id="catalog" class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"></div>
+
+                <!-- Pagination -->
+
+                <nav id="pagination-nav" class="flex justify-center mt-12 mb-8"></nav>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Product Detail Container (hidden by default, shown when clicking a product card) -->
+
+        <div id="product-detail" style="display: none;"></div>
+
+    </div>
+
+
+
+    <!-- Socials Section -->
+
+    <section class="py-16 bg-gray-900 text-white">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-12">
+
+                <h2 class="text-3xl font-bold title-font mb-4" data-i18n="socials_title">Наші платформи</h2>
+
+                <p class="text-lg text-gray-400" data-i18n="socials_subtitle">Слідкуйте за нами, щоб бути в курсі
+
+                    новинок та акцій</p>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Telegram -->
+
+                <a href="https://t.me/Digital_Pc" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-blue-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <i data-feather="send" class="w-8 h-8 text-blue-500"></i>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">Telegram</h3>
+
+                    <p class="text-gray-400 text-sm">@Digital_Pc</p>
+
+                </a>
+
+                <!-- Instagram -->
+
+                <a href="https://www.instagram.com/digital_pc_dnipro" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-pink-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <i data-feather="instagram" class="w-8 h-8 text-pink-500"></i>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">Instagram</h3>
+
+                    <p class="text-gray-400 text-sm">@digital_pc_dnipro</p>
+
+                </a>
+
+                <!-- TikTok -->
+
+                <a href="https://www.tiktok.com/@digital_pc_dnipro_" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <svg viewBox="0 0 24 24" class="w-8 h-8 fill-current text-white" style="display:block">
+
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+
+                        </svg>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">TikTok</h3>
+
+                    <p class="text-gray-400 text-sm">@digital_pc_dnipro_</p>
+
+                </a>
+
+                <!-- Prom Store -->
+
+                <a href="https://digitalpcdnipro.prom.ua/" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-purple-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <i data-feather="shopping-bag" class="w-8 h-8 text-purple-500"></i>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">Prom.ua</h3>
+
+                    <p class="text-gray-400 text-sm" data-i18n="promo_prom">Магазин на Prom</p>
+
+                </a>
+
+                <!-- OLX -->
+
+                <a href="https://www.olx.ua/list/user/10oQVa/" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-green-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <svg viewBox="0 0 24 24" class="w-8 h-8" fill="#3FBF7F">
+
+                            <circle cx="12" cy="12" r="10" fill="#3FBF7F" />
+
+                            <path
+                                d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"
+                                fill="white" />
+
+                            <circle cx="12" cy="12" r="2.5" fill="white" />
+
+                        </svg>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">OLX</h3>
+
+                    <p class="text-gray-400 text-sm">Наші оголошення</p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div>
+
+                    <h3 class="text-lg font-bold title-font mb-4" data-i18n="hero_title">DIGITAL PC</h3>
+
+                    <p class="text-sm text-gray-400 mb-6" data-i18n="footer_desc">Професійні готові ПК для геймінгу,
+
+                        рендерингу та офісних задач. Ми створюємо машини, які надихають на перемоги.</p>
+
+
+
+                    <div class="flex flex-wrap gap-4">
+
+                        <a href="https://t.me/Digital_Pc" class="text-gray-400 hover:text-white" target="_blank"><i
+                                data-feather="send" class="w-5 h-5"></i></a>
+
+                        <a href="https://www.instagram.com/digital_pc_dnipro" class="text-gray-400 hover:text-white"
+                            target="_blank"><i data-feather="instagram" class="w-5 h-5"></i></a>
+
+                        <a href="https://www.tiktok.com/@digital_pc_dnipro_" class="text-gray-400 hover:text-white"
+                            target="_blank">
+
+                            <svg viewBox="0 0 24 24" class="w-5 h-5 fill-current" style="display:block">
+
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+
+                            </svg>
+
+                        </a>
+
+                        <a href="https://digitalpcdnipro.prom.ua/" class="text-gray-400 hover:text-white"
+                            target="_blank" title="Prom"><i data-feather="shopping-bag" class="w-5 h-5"></i></a>
+
+                        <a href="https://www.olx.ua/list/user/10oQVa/" class="text-gray-400 hover:text-white"
+                            target="_blank" title="OLX">
+
+                            <svg viewBox="0 0 48 48" class="w-5 h-5" fill="currentColor">
+
+                                <path
+                                    d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm0 36c-8.82 0-16-7.18-16-16S15.18 8 24 8s16 7.18 16 16-7.18 16-16 16z"
+                                    fill="#3FBF7F" />
+
+                                <path d="M18 18.5c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z" fill="#3FBF7F" />
+
+                                <text x="24" y="32" font-family="Arial, sans-serif" font-size="10" font-weight="bold"
+                                    text-anchor="middle" fill="#3FBF7F">OLX</text>
+
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4" data-i18n="footer_clients">Клієнтам</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white" data-i18n="nav_home">Головна</a>
+                        </li>
+                        <li><a href="computers.html" class="text-gray-400 hover:text-white"
+                                data-i18n="nav_catalog">Каталог ПК</a></li>
+                        <li><a href="reviews.html" class="text-gray-400 hover:text-white"
+                                data-i18n="nav_reviews">Відгуки</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white" data-i18n="nav_about">Про
+                                нас</a></li>
+                        <li><a href="contacts.html" class="text-gray-400 hover:text-white"
+                                data-i18n="nav_contacts">Контакти</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4" data-i18n="footer_location">Наше розташування</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><i data-feather="map-pin"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"
+                                data-i18n="contact_addr">м. Дніпро, Україна</span></li>
+                        <li class="flex items-start"><i data-feather="clock"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"
+                                data-i18n="contact_hours">Пн-Нд: 9:00 - 20:00</span></li>
+                        <li class="flex items-start"><i data-feather="phone"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"><a
+                                    href="tel:+380993173348" class="hover:text-blue-600">+380 99 317 33 48</a></span>
+                        </li>
+                        <li class="flex items-start"><i data-feather="mail"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"><a
+                                    href="mailto:digital.pc.dnipro@gmail.com"
+                                    class="hover:text-blue-600">digital.pc.dnipro@gmail.com</a></span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Digital PC. Всі права
+
+                    захищені. </p>
+
+                <div class="flex space-x-6">
+
+                    <a href="privacy.html" class="text-gray-400 hover:text-white text-sm"
+                        data-i18n="footer_privacy">Політика конфіденційності</a>
+
+                    <a href="terms.html" class="text-gray-400 hover:text-white text-sm" data-i18n="footer_terms">Умови
+
+                        використання</a>
+
+                    <a href="warranty.html" class="text-gray-400 hover:text-white text-sm"
+                        data-i18n="nav_warranty">Гарантія</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="socials-map"></div>
+
+    </footer>
+
+    <!-- Mobile Filter Modal -->
+    <div id="mobile-filter-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden opacity-0"
+        style="pointer-events: none;">
+        <div id="mobile-filter-content"
+            class="absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl max-h-[80vh] overflow-y-auto">
+            <div class="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex justify-between items-center">
+                <h3 class="text-lg font-bold text-gray-900">Фільтри</h3>
+                <button onclick="closeMobileFilters()" class="text-gray-400 hover:text-gray-600">
+                    <i data-feather="x" class="w-6 h-6"></i>
+                </button>
+            </div>
+            <div class="p-6 space-y-6" id="mobile-filters-content">
+                <!-- Filters will be cloned here -->
+            </div>
+            <div class="sticky bottom-0 bg-white border-t border-gray-200 p-4 flex gap-3">
+                <button onclick="resetMobileFilters()"
+                    class="flex-1 py-3 px-4 border border-gray-300 rounded-lg text-gray-600 hover:bg-gray-50 transition-colors font-medium">
+                    Скинути
+                </button>
+                <button onclick="applyMobileFilters()"
+                    class="flex-1 py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                    Застосувати
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>window.PRODUCTS_JSON_URL = "./data/products.json"</script>
+
+    <script src="./app.js?v=8"></script>
+
+    <script>
+        // Mobile Filter Modal Functions
+        function openMobileFilters() {
+            const modal = document.getElementById('mobile-filter-modal');
+            const mobileContent = document.getElementById('mobile-filters-content');
+            const desktopFilters = document.getElementById('filters-sidebar');
+
+            // Clone desktop filters to mobile modal
+            if (desktopFilters && mobileContent) {
+                mobileContent.innerHTML = desktopFilters.querySelector('.space-y-6').innerHTML;
+                // Remove the desktop-only reset button from cloned content
+                const resetBtn = mobileContent.querySelector('button[onclick*="resetFilters"]');
+                if (resetBtn && !resetBtn.classList.contains('md:hidden')) {
+                    resetBtn.remove();
+                }
+
+                // Re-attach event listeners to cloned checkboxes
+                mobileContent.querySelectorAll('.filter-checkbox').forEach(cb => {
+                    cb.addEventListener('change', window.applyFilters);
+                });
+            }
+
+            modal.classList.remove('hidden');
+            modal.style.pointerEvents = 'auto';
+            setTimeout(() => modal.classList.add('active'), 10);
+            document.body.style.overflow = 'hidden';
+
+            // Re-initialize feather icons in modal
+            if (window.feather) feather.replace();
+        }
+
+        function closeMobileFilters() {
+            const modal = document.getElementById('mobile-filter-modal');
+            modal.classList.remove('active');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.style.pointerEvents = 'none';
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        function applyMobileFilters() {
+            if (window.applyFilters) {
+                window.applyFilters();
+            }
+            closeMobileFilters();
+        }
+
+        function resetMobileFilters() {
+            if (window.resetFilters) {
+                window.resetFilters();
+            }
+            closeMobileFilters();
+        }
+
+        // Close on backdrop click
+        document.addEventListener('click', function (e) {
+            const modal = document.getElementById('mobile-filter-modal');
+            if (e.target === modal) {
+                closeMobileFilters();
+            }
+        });
+    </script>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            if (window.feather) feather.replace();
+
+        });
+
+    </script>
+
+</body>
+
+
+
+</html>

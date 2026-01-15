@@ -1,0 +1,21 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Unused / Large Asset Folders (Not for Repo)
+images/test_products/
+data/failed_urls.txt
+data/olx_all_urls.txt
+data/olx_listing_urls.txt
+
+# Temp / Backup
+*.tmp
+*.bak

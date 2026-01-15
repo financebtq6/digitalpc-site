@@ -1,0 +1,48 @@
+<svg width="64" height="64" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients matching the original logo colors -->
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0000FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#86EFAC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#86EFAC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6EE7B7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5EEAD4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#67E8F9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0000FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Hexagon ring with rounded segments matching original -->
+  <!-- Top segment (dark blue) -->
+  <path d="M 100 25 Q 110 25 120 30 L 155 50 Q 160 55 160 62 L 145 75 Q 140 80 130 82 L 70 82 Q 60 80 55 75 L 40 62 Q 40 55 45 50 L 80 30 Q 90 25 100 25 Z" fill="url(#g1)"/>
+  
+  <!-- Top-right segment (medium blue) -->
+  <path d="M 155 50 Q 160 55 162 62 L 175 100 Q 175 110 172 118 L 157 138 Q 152 143 145 145 L 145 75 Q 150 70 155 65 Z" fill="url(#g2)"/>
+  
+  <!-- Bottom-right segment (light green) -->
+  <path d="M 172 118 Q 175 125 172 132 L 157 152 Q 152 157 145 160 L 120 170 Q 110 175 100 175 L 130 118 Q 135 113 140 110 L 157 138 Z" fill="url(#g3)"/>
+  
+  <!-- Bottom segment (mint green) -->
+  <path d="M 120 170 Q 110 175 100 175 Q 90 175 80 170 L 45 150 Q 40 145 38 138 L 55 118 Q 60 113 70 118 L 130 118 Q 135 120 138 125 Z" fill="url(#g4)"/>
+  
+  <!-- Bottom-left segment (cyan) -->
+  <path d="M 45 150 Q 40 145 38 138 L 25 100 Q 25 90 28 82 L 43 62 Q 48 57 55 55 L 55 125 Q 50 130 45 135 Z" fill="url(#g5)"/>
+  
+  <!-- Top-left segment (blue) -->
+  <path d="M 28 82 Q 25 75 28 68 L 43 48 Q 48 43 55 40 L 80 30 Q 90 25 100 25 L 70 82 Q 65 87 60 90 L 43 62 Z" fill="url(#g6)"/>
+</svg>

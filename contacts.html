@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+
+<html lang="uk">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Персональні комп'ютери | Digital PC</title>
+
+    <meta name="description" content="Контакти магазину Digital PC. Телефон, адреса, графік роботи та карта проїзду.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
+
+    <style>
+        body {
+
+            font-family: 'Rajdhani', sans-serif;
+
+            background-color: #f8f9fa;
+
+            color: #2f3640;
+
+        }
+
+
+
+        .title-font {
+
+            font-family: 'Orbitron', sans-serif;
+
+            letter-spacing: 1px;
+
+        }
+
+
+
+        .nav-link:after {
+
+            content: '';
+
+            position: absolute;
+
+            width: 0;
+
+            height: 2px;
+
+            bottom: -2px;
+
+            left: 0;
+
+            background-color: #00a8ff;
+
+            transition: width 0.3s ease;
+
+        }
+
+
+
+        .nav-link:hover:after {
+
+            width: 100%;
+
+        }
+    </style>
+
+</head>
+
+
+
+<body class="antialiased flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+
+    <nav class="bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-sm fixed w-full z-50">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="flex justify-between h-16 items-center">
+
+                <!-- Logo -->
+
+                <div class="flex-shrink-0 flex items-center"><a href="index.html" class="flex items-center"><img
+                            src="./images/logo.png?v=13" alt="Digital PC Logo" class="w-8 h-8"><span
+                            class="ml-2 text-xl font-bold title-font text-gray-800">DIGITAL PC</span></a></div>
+
+                <!-- Desktop Menu -->
+
+                <!-- Desktop Menu -->
+
+                <div class="hidden md:ml-6 md:flex md:space-x-8">
+
+                    <a href="index.html"
+                        class="nav-link text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                        data-i18n="nav_home">Головна</a>
+
+                    <a href="computers.html"
+                        class="nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                        data-i18n="nav_catalog">Комп'ютери</a>
+
+                    <a href="reviews.html"
+                        class="nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                        data-i18n="nav_reviews">Відгуки</a>
+
+                    <a href="about.html"
+                        class="nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                        data-i18n="nav_about">Про нас</a>
+
+                    <a href="contacts.html"
+                        class="nav-link text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                        data-i18n="nav_contacts">Контакти</a>
+
+                </div>
+
+                <!-- Right Side -->
+
+                <div class="flex items-center">
+
+                    <!-- Mobile menu button -->
+
+                    <div class="-mr-2 flex items-center md:hidden"><button type="button"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                            aria-expanded="false" id="mobile-menu-button"><span class="sr-only">Open main menu</span><i
+                                data-feather="menu" class="block h-6 w-6"></i></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile menu -->
+
+        <div class="md:hidden hidden" id="mobile-menu">
+
+            <div class="pt-2 pb-3 space-y-1"><a href="index.html"
+                    class="bg-blue-50 border-blue-500 text-blue-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Головна</a><a
+                    href="computers.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Комп'ютери</a>
+
+                <a href="reviews.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Відгуки</a>
+
+                <a href="about.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Про
+
+                    нас</a><a href="contacts.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Контакти</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- Header -->
+
+    <div class="bg-gray-900 pt-32 pb-12">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+            <h1 class="text-4xl font-bold text-white mb-4 title-font" data-i18n="contacts_title">Контакти</h1>
+
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto" data-i18n="contacts_subtitle">Ми завжди на зв'язку</p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Content -->
+
+    <div class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- Contact Info -->
+
+            <div>
+
+                <h2 class="text-3xl font-bold mb-8 text-gray-900" data-i18n="contact_us_title">Зв'яжіться з нами</h2>
+
+                <div class="space-y-8">
+
+                    <div class="flex items-start">
+
+                        <div class="bg-blue-100 p-4 rounded-full mr-6 flex-shrink-0">
+
+                            <i data-feather="phone" class="w-8 h-8 text-blue-600"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="font-bold text-xl mb-1 text-gray-900">Телефон / Telegram</h3>
+
+                            <p class="text-gray-600 mb-2 text-lg"><a href="tel:+380 99 317 33 48"
+                                    class="hover:text-blue-600">+380 99 317 33 48</a></p>
+
+                            <a href="https://t.me/Digital_Pc" target="_blank"
+                                class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center text-lg">
+
+                                Написати в Telegram <i data-feather="send" class="w-4 h-4 ml-2"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="flex items-start">
+
+                        <div class="bg-blue-100 p-4 rounded-full mr-6 flex-shrink-0">
+
+                            <i data-feather="mail" class="w-8 h-8 text-blue-600"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="font-bold text-xl mb-1 text-gray-900">Email</h3>
+
+                            <p class="text-gray-600 text-lg"><a href="mailto:digital.pc.dnipro@gmail.com"
+                                    class="hover:text-blue-600">digital.pc.dnipro@gmail.com</a></p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="flex items-start">
+
+                        <div class="bg-blue-100 p-4 rounded-full mr-6 flex-shrink-0">
+
+                            <i data-feather="map-pin" class="w-8 h-8 text-blue-600"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="font-bold text-xl mb-1 text-gray-900" data-i18n="address_title">Адреса</h3>
+
+                            <p class="text-gray-600 text-lg" data-i18n="contact_addr">м. Дніпро, Україна</p>
+
+                            <p class="text-gray-500 text-sm mt-1" data-i18n="address_desc">Ми працюємо по всій Україні з
+
+                                доставкою Новою Поштою
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="flex items-start">
+
+                        <div class="bg-blue-100 p-4 rounded-full mr-6 flex-shrink-0">
+
+                            <i data-feather="clock" class="w-8 h-8 text-blue-600"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="font-bold text-xl mb-1 text-gray-900" data-i18n="schedule_title">Графік роботи
+
+                            </h3>
+
+                            <p class="text-gray-600 text-lg" data-i18n="contact_hours">Пн-Нд: 9:00 - 20:00</p>
+
+                            <p class="text-gray-500 text-sm mt-1" data-i18n="schedule_desc">Приймаємо замовлення на
+
+                                сайті цілодобово</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Map -->
+
+            <div class="h-[500px] bg-gray-100 rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.8!2d35.0476395!3d48.4673734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe323e12dab59%3A0x8b1de23f729b1fa4!2sDigital%20PC!5e0!3m2!1suk!2sua!4v1734627999000!5m2!1suk!2sua"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Socials Section -->
+
+    <section class="py-16 bg-gray-900 text-white">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-12">
+
+                <h2 class="text-3xl font-bold title-font mb-4" data-i18n="socials_title">Наші платформи</h2>
+
+                <p class="text-lg text-gray-400" data-i18n="socials_subtitle">Слідкуйте за нами, щоб бути в курсі
+
+                    новинок та акцій</p>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Telegram -->
+
+                <a href="https://t.me/Digital_Pc" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-blue-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <i data-feather="send" class="w-8 h-8 text-blue-500"></i>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">Telegram</h3>
+
+                    <p class="text-gray-400 text-sm">@Digital_Pc</p>
+
+                </a>
+
+                <!-- Instagram -->
+
+                <a href="https://www.instagram.com/digital_pc_dnipro" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-pink-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <i data-feather="instagram" class="w-8 h-8 text-pink-500"></i>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">Instagram</h3>
+
+                    <p class="text-gray-400 text-sm">@digital_pc_dnipro</p>
+
+                </a>
+
+                <!-- TikTok -->
+
+                <a href="https://www.tiktok.com/@digital_pc_dnipro_" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <svg viewBox="0 0 24 24" class="w-8 h-8 fill-current text-white" style="display:block">
+
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+
+                        </svg>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">TikTok</h3>
+
+                    <p class="text-gray-400 text-sm">@digital_pc_dnipro_</p>
+
+                </a>
+
+                <!-- Prom Store -->
+
+                <a href="https://digitalpcdnipro.prom.ua/" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-purple-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <i data-feather="shopping-bag" class="w-8 h-8 text-purple-500"></i>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">Prom.ua</h3>
+
+                    <p class="text-gray-400 text-sm" data-i18n="promo_prom">Магазин на Prom</p>
+
+                </a>
+
+                <!-- OLX -->
+
+                <a href="https://www.olx.ua/list/user/10oQVa/" target="_blank"
+                    class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all group flex flex-col items-center text-center border border-gray-700">
+
+                    <div
+                        class="w-16 h-16 bg-green-500/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+
+                        <svg viewBox="0 0 24 24" class="w-8 h-8" fill="#3FBF7F">
+
+                            <circle cx="12" cy="12" r="10" fill="#3FBF7F" />
+
+                            <path
+                                d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"
+                                fill="white" />
+
+                            <circle cx="12" cy="12" r="2.5" fill="white" />
+
+                        </svg>
+
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-1">OLX</h3>
+
+                    <p class="text-gray-400 text-sm">Наші оголошення</p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div>
+
+                    <h3 class="text-lg font-bold title-font mb-4" data-i18n="hero_title">DIGITAL PC</h3>
+
+                    <p class="text-sm text-gray-400 mb-6" data-i18n="footer_desc">Професійні готові ПК для геймінгу,
+
+                        рендерингу та офісних задач. Ми створюємо машини, які надихають на перемоги.</p>
+
+
+
+                    <div class="flex flex-wrap gap-4">
+
+                        <a href="https://t.me/Digital_Pc" class="text-gray-400 hover:text-white" target="_blank"><i
+                                data-feather="send" class="w-5 h-5"></i></a>
+
+                        <a href="https://www.instagram.com/digital_pc_dnipro" class="text-gray-400 hover:text-white"
+                            target="_blank"><i data-feather="instagram" class="w-5 h-5"></i></a>
+
+                        <a href="https://www.tiktok.com/@digital_pc_dnipro_" class="text-gray-400 hover:text-white"
+                            target="_blank">
+
+                            <svg viewBox="0 0 24 24" class="w-5 h-5 fill-current" style="display:block">
+
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+
+                            </svg>
+
+                        </a>
+
+                        <a href="https://digitalpcdnipro.prom.ua/" class="text-gray-400 hover:text-white"
+                            target="_blank" title="Prom"><i data-feather="shopping-bag" class="w-5 h-5"></i></a>
+
+                        <a href="https://www.olx.ua/list/user/10oQVa/" class="text-gray-400 hover:text-white"
+                            target="_blank" title="OLX">
+
+                            <svg viewBox="0 0 48 48" class="w-5 h-5" fill="currentColor">
+
+                                <path
+                                    d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm0 36c-8.82 0-16-7.18-16-16S15.18 8 24 8s16 7.18 16 16-7.18 16-16 16z"
+                                    fill="#3FBF7F" />
+
+                                <path d="M18 18.5c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z" fill="#3FBF7F" />
+
+                                <text x="24" y="32" font-family="Arial, sans-serif" font-size="10" font-weight="bold"
+                                    text-anchor="middle" fill="#3FBF7F">OLX</text>
+
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4" data-i18n="footer_clients">Клієнтам</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white" data-i18n="nav_home">Головна</a>
+                        </li>
+                        <li><a href="computers.html" class="text-gray-400 hover:text-white"
+                                data-i18n="nav_catalog">Каталог ПК</a></li>
+                        <li><a href="reviews.html" class="text-gray-400 hover:text-white"
+                                data-i18n="nav_reviews">Відгуки</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white" data-i18n="nav_about">Про
+                                нас</a></li>
+                        <li><a href="contacts.html" class="text-gray-400 hover:text-white"
+                                data-i18n="nav_contacts">Контакти</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4" data-i18n="footer_location">Наше розташування</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start"><i data-feather="map-pin"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"
+                                data-i18n="contact_addr">м. Дніпро, Україна</span></li>
+                        <li class="flex items-start"><i data-feather="clock"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"
+                                data-i18n="contact_hours">Пн-Нд: 9:00 - 20:00</span></li>
+                        <li class="flex items-start"><i data-feather="phone"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"><a
+                                    href="tel:+380993173348" class="hover:text-blue-600">+380 99 317 33 48</a></span>
+                        </li>
+                        <li class="flex items-start"><i data-feather="mail"
+                                class="w-5 h-5 mr-2 mt-0.5 flex-shrink-0"></i><span class="text-gray-400"><a
+                                    href="mailto:digital.pc.dnipro@gmail.com"
+                                    class="hover:text-blue-600">digital.pc.dnipro@gmail.com</a></span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Digital PC. Всі права
+
+                    захищені. </p>
+
+                <div class="flex space-x-6">
+
+                    <a href="privacy.html" class="text-gray-400 hover:text-white text-sm"
+                        data-i18n="footer_privacy">Політика конфіденційності</a>
+
+                    <a href="terms.html" class="text-gray-400 hover:text-white text-sm" data-i18n="footer_terms">Умови
+
+                        використання</a>
+
+                    <a href="warranty.html" class="text-gray-400 hover:text-white text-sm"
+                        data-i18n="nav_warranty">Гарантія</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="socials-map"></div>
+
+    </footer>
+
+    <script src="app.js" defer></script>
+
+    <script>
+        // Mobile menu toggle
+        const mobBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (mobBtn && mobileMenu) {
+            mobBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                mobileMenu.classList.toggle('hidden');
+                if (window.feather) feather.replace();
+            });
+
+            const menuLinks = mobileMenu.querySelectorAll('a');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            document.addEventListener('click', function (e) {
+                if (!mobileMenu.classList.contains('hidden') &&
+                    !mobileMenu.contains(e.target) &&
+                    !mobBtn.contains(e.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            if (window.feather) feather.replace();
+
+        });
+
+    </script>
+
+</body>
+
+
+
+</html>
